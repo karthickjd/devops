@@ -18,7 +18,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: DockerFileFolder/
+          context: dockerhubimages-main/DockerFileFolder/
           push: true
           tags: karthick1616/development:latest
         
