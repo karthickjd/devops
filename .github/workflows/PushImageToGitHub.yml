@@ -16,5 +16,9 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
     
       - name: Build and push Docker image
-        uses: docker/build-
+        uses: docker/build-push-action@v4
+        with:
+          context: DockerFileFolder/
+          push: true
+          tags: karthick1616/development:latest
         
