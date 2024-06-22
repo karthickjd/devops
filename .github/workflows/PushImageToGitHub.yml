@@ -20,5 +20,5 @@ jobs:
         with:
           context: dockerhubimages-main/DockerFileFolder/
           push: true
-          tags: karthick1616/development:latest
+          tags: karthick1616/development:v1:1
         
